@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #007af3;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.nav-bar {
+  background-color: #f7f5f5;
+  padding: 1em;
+}
+.nav-bar .logo {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.nav-bar span {
+  color: var(--primary-color);
+}
+.nav-bar nav {
+  display: none;
+}
+.nav-bar .container {
+  display: flex;
+  place-content: space-between;
+}
+.nav-bar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: rgb(27, 25, 25);
+}
+
+li {
+  list-style-type: none;
+}
+
+section {
+  padding: 4em 3em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(88, 87, 87);
+  letter-spacing: 0.3em;
+}
+.left-col h1 {
+  font-size: rem;
+  line-height: 1.3em;
+  padding-top: 0.5em;
+}
+.left-col .primary-cta {
+  background: var(--primary-color);
+  text-decoration: none;
+  padding: 0.5em 2em;
+  margin: 1em 2em;
+  font-size: 1.25rem;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  border-radius: 5em;
+}
+.left-col .primary-cta:hover {
+  padding: 0.6em 2em;
+  font-size: 1.3rem;
+  border: 2px solid #026dd8;
+}
+.left-col .watch-video-cta {
+  display: flex;
+  margin-top: 0.75em;
+  margin-right: 0.8em;
+  justify-content: center;
+}
+.left-col .watch-video-cta img {
+  display: block;
+}
+
+.right-col .illustration {
+  margin-top: 3em;
+  height: 250px;
+}
+.right-col .copyright {
+  font-size: 0.5rem;
+  display: block;
+  text-align: center;
+}
+
+.feature-section {
+  background-color: rgb(8, 8, 59);
+  color: white;
+}
+
+ul.feature-list {
+  margin: 0;
+  padding: 0 1.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+ul.feature-list li {
+  font-size: 1.1rem;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  position: relative;
+}
+ul.feature-list li::before {
+  content: "";
+  position: absolute;
+  margin-left: -2.5em;
+  margin-top: -0.1em;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/check.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.testimonial-section {
+  background: var(--primary-color);
+  color: white;
+}
+.testimonial-section li {
+  text-align: center;
+  background-color: #026dd8;
+  padding: 2em 2em;
+  width: 80%;
+  margin: 0 auto 3em auto;
+  border-radius: 1.5em;
+}
+.testimonial-section li img {
+  height: 100px;
+  width: 70px;
+  border: solid #026dd8;
+  border-radius: 50%;
+  margin-top: -4em;
+  margin-bottom: 2.5em;
+}
+
+.contact-left label {
+  display: block;
+  margin: 0.5em 0;
+}
+.contact-left input, .contact-left textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 2px solid gray;
+  border-radius: 0.3em;
+}
+.contact-left input:hover, .contact-left textarea:hover {
+  border: 1px solid #026dd8;
+  box-shadow: 2px 2px #83bffa;
+}
+.contact-left button {
+  width: 50%;
+  background: var(--primary-color);
+  color: white;
+  margin: 1em 1em 3em 0.75em;
+  padding: 0.75em 2em;
+  border: none;
+  border-radius: 1.5em;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 50% vh;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  top: 0;
+  position: fixed;
+  right: 0;
+  background-color: #20272e;
+  height: 100vh;
+  width: 66%;
+  z-index: 5;
+}
+nav ul {
+  margin-top: 5em;
+}
+nav ul li {
+  text-align: center;
+  margin: 2em 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  font-weight: bold;
+}
+nav .close-menu {
+  height: 30px;
+  width: 20px;
+  float: right;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .close-menu {
+    display: none;
+  }
+  .nav-bar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
+  }
+  .nav-bar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .nav-bar nav ul {
+    display: flex;
+    padding: 0 3em;
+  }
+  .nav-bar nav a {
+    color: black;
+    font-size: 1.1rem;
+    padding: 1.1em 1em;
+  }
+  .nav-bar nav a.premium-cta {
+    color: var(--primary-color);
+    height: 20%;
+    margin-top: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 1em;
+    border: 3px solid var(--primary-color);
+    border-radius: 2em;
+  }
+  .nav-bar nav a.premium-cta:hover {
+    color: white;
+    background-color: var(--primary-color);
+  }
+  .nav-bar nav ul.primary-class {
+    padding-right: 1em;
+    margin: -3em;
+  }
+  .nav-bar nav ul.secondary-class {
+    margin: -3em;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 5em 4em;
+  }
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .hero .container .left-col {
+    margin: 5em 2em;
+  }
+  .hero .container .left-col h1 {
+    font-size: 3.5rem;
+  }
+  .hero .container .right-col img {
+    margin-right: 1em;
+    height: 350px;
+  }
+  .hero .container .hero-cta {
+    display: flex;
+  }
+  .hero .container .hero-cta .primary-cta {
+    margin-left: 0.25em;
+    margin-right: 1em;
+  }
+  .hero .container .hero-cta .watch-video-cta {
+    margin-top: 2em;
+    font-size: 1.25;
+  }
+  .hero .container .hero-cta .watch-video-cta .hero-img {
+    height: 30px;
+  }
+  .testimonial-section ul {
+    display: flex;
+  }
+  .testimonial-section ul li {
+    margin: 0 2em;
+  }
+  .contact-section {
+    position: relative;
+  }
+  .contact-section .container {
+    display: flex;
+  }
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+  }
+  iframe {
+    height: 100%;
+  }
+}/*# sourceMappingURL=practice3.css.map */
