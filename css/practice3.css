@@ -137,7 +137,7 @@ ul.feature-list li::before {
 .testimonial-section li {
   text-align: center;
   background-color: #026dd8;
-  padding: 2em 2em;
+  padding: 1em 1em;
   width: 80%;
   margin: 0 auto 3em auto;
   border-radius: 1.5em;
@@ -149,6 +149,10 @@ ul.feature-list li::before {
   border-radius: 50%;
   margin-top: -4em;
   margin-bottom: 2.5em;
+}
+.testimonial-section li .button {
+  padding: 2em;
+  color: #007af3;
 }
 
 .contact-left label {
@@ -311,7 +315,7 @@ nav .close-menu {
     display: flex;
   }
   .testimonial-section ul li {
-    margin: 0 2em;
+    margin: 0 1em;
   }
   .contact-section {
     position: relative;

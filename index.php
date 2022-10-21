@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/practice3.css">
-    <title>Document</title>
+    <title>Therapeace</title>
 </head>
 <body>
     <div class="nav-bar">
@@ -72,17 +72,17 @@
         <div class="container">
             <ul>
                 <li>
-                    <img src="img/treb.jpg" alt="testimonial">
+                
                     <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote>
                     <cite>- Dan Millman</cite>
                 </li>
                 <li>
-                    <img src="img/treb.jpg" alt="testimonial">
+                    
                     <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote>
                     <cite>- Leonard Cohen</cite>
                 </li>
                 <li>
-                    <img src="img/treb.jpg" alt="testimonial">
+                    
                     <blockquote>"It is not the bruises on the body that hurt. It is the wounds of the heart and the scars on the mind."</blockquote>
                     <cite>-  Aisha Mirza</cite>
                 </li>
