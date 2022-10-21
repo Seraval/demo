@@ -47,12 +47,12 @@ $mhealth->assesment();
                 <li>
                     
                     <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote><br>
-                    <button> <a href="dass21.php">take dass21</a> </button>
+                    <button> <a href="dass21.php">Take DASS21</a> </button>
                 </li>
                 <li>
                     
                     <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote><br>
-                    <button> stress test</button>
+                    <button> <a href="stress.php">Stress Test</a></button>
                 </li>
             </ul>
         </div>
@@ -62,12 +62,12 @@ $mhealth->assesment();
                 <li>
                     
                     <blockquote>“It's so empowering to say “this isn't serving me' and walk away in peace.”"</blockquote><br>
-                    <button> anxiety test</button>
+                    <button> <a href="anxiety.php">Anxiety Test</a></button>
                 </li>
                 <li>
                     
                     <blockquote>“Not everything that weighs you down is yours to carry.”</blockquote><br>
-                    <button>Depression Test</button>
+                    <button><a href="depression.php">Depression Test</a></button>
                 </li>
             </ul>
         </div>

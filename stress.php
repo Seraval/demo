@@ -19,7 +19,7 @@ $mhealth->assesment();
     <link rel="stylesheet" href="css/practice3.css">
     
 </head>
-<body style="background-color:#FFFCF6">
+<body style="background-color:#eff3f7">
 
 <div class="nav-bar">
   <div class="container">

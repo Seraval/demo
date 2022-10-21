@@ -72,18 +72,18 @@
         <div class="container">
             <ul>
                 <li>
-                
-                    <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote>
+                    <br>
+                    <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote><br>
                     <cite>- Dan Millman</cite>
                 </li>
                 <li>
-                    
-                    <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote>
+                    <br>
+                    <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote><br><br>
                     <cite>- Leonard Cohen</cite>
                 </li>
                 <li>
-                    
-                    <blockquote>"It is not the bruises on the body that hurt. It is the wounds of the heart and the scars on the mind."</blockquote>
+                    <br>
+                    <blockquote>"It is not the bruises on the body that hurt. It is the wounds of the heart and the scars on the mind."</blockquote><br>
                     <cite>-  Aisha Mirza</cite>
                 </li>
             </ul>
