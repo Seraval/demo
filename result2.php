@@ -12,7 +12,7 @@
     <title>Therapeace</title>
     <link rel="stylesheet" href="css/practice3.css">
 </head>
-<body>
+<body style="background-color:#FFFCF6">
 
 <div class="nav-bar">
     <div class="container">
@@ -22,7 +22,7 @@
         <nav>
             <img src="img/close.svg" class="close-menu" id = "mobile-exit" alt="">
             <ul class="primary-class">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">About</a></li>
                 <!-- <li><a href="#">Pricing</a></li> -->
             </ul>

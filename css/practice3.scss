@@ -105,10 +105,10 @@ section {
 
         &:hover {
 
-            padding: .6em 2em;
-            font-size: 1.3rem;
+            // padding: .6em 2em;
+            // font-size: 1.3rem;
             border: 2px solid #026dd8;
-            // box-shadow: 2px 2px #132f4b;
+            box-shadow: 2px 2px #132f4b;
 
         }
 
@@ -214,6 +214,7 @@ ul.feature-list {
 
             a {
                 text-decoration: none;
+                color: #007af3;
             }
 
             padding: 1em 2em;

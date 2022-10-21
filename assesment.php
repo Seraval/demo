@@ -61,12 +61,12 @@ $mhealth->assesment();
             <ul>
                 <li>
                     
-                    <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote><br>
+                    <blockquote>“It's so empowering to say “this isn't serving me' and walk away in peace.”"</blockquote><br>
                     <button> anxiety test</button>
                 </li>
                 <li>
                     
-                    <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote><br>
+                    <blockquote>“Not everything that weighs you down is yours to carry.”</blockquote><br>
                     <button>Depression Test</button>
                 </li>
             </ul>

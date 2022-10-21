@@ -17,8 +17,9 @@ $mhealth->assesment();
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Therapeace</title>
     <link rel="stylesheet" href="css/practice3.css">
+    
 </head>
-<body>
+<body style="background-color:#FFFCF6">
 
 <div class="nav-bar">
   <div class="container">
@@ -41,7 +42,7 @@ $mhealth->assesment();
   </div>
 </div>
 
-     
+<?php include_once "alert.php"; ?>
 <section class="vh-100 mt-5">
   <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div class="container h-100">
