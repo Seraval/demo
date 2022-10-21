@@ -41,7 +41,6 @@ $mhealth->assesment();
   </div>
 </div>
 
-<?php include_once "alert.php"; ?>
      
 <section class="vh-100 mt-5">
   <div class="mask d-flex align-items-center h-100 gradient-custom-3">
