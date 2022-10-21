@@ -38,12 +38,12 @@
                 <li>
                     
                     <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote><br>
-                    <button class="button"> take dass21</button>
+                    <button> take dass21</button>
                 </li>
                 <li>
                     
                     <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote><br>
-                    <button class="button"> take Stress Test</button>
+                    <button> stress test</button>
                 </li>
             </ul>
         </div>
@@ -53,12 +53,12 @@
                 <li>
                     
                     <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote><br>
-                    <button class="button"> take dass21</button>
+                    <button> anxiety test</button>
                 </li>
                 <li>
                     
                     <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote><br>
-                    <button class="button"> take Stress Test</button>
+                    <button>Depression Test</button>
                 </li>
             </ul>
         </div>
