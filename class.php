@@ -136,7 +136,7 @@ class mentalHealth {
             
             if ($total > 0  ){
                 
-                header("location:dass21.php?action=success");
+                header("location:assesment.php?action=success");
              
             }else {
 
