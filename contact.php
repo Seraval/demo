@@ -1,10 +1,3 @@
-<?php
-
-require_once ('class.php');
-$mhealth->assesment();
-
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,7 +36,7 @@ $mhealth->assesment();
 
 <section class="testimonial-section">
     <div class="container">
-        
+
             <h1>OUR DOCTORS</h1><br><br>
             <ul>
                 <li>
