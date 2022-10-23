@@ -41,16 +41,18 @@ $mhealth->assesment();
 </div>
 
 <section class="testimonial-section">
-        <div class="container">
+    <div class="container">
+
+        <h1>OUR DOCTORS</h1>
             <ul>
                 <li>
-                    <img src="img/treb.jpg" alt="testimonial">
-                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum."</blockquote>
+                    <img src="img/man.png" alt="testimonial">
+                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum." Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, assumenda quidem suscipit eaque odio aperiam, blanditiis iusto maxime repellendus quia porro quasi consequuntur fugiat repellat expedita quaerat ut quisquam nam!</blockquote>
                     <cite>- John Doe</cite>
                 </li>
                 <li>
-                    <img src="img/treb.jpg" alt="testimonial">
-                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum."</blockquote>
+                    <img src="img/girl.png" alt="testimonial">
+                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum." Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis adipisci temporibus ab tenetur officia aliquam, error excepturi quia quibusdam culpa explicabo cupiditate atque vero eligendi praesentium corporis. Iste, earum aut?</blockquote>
                     <cite>- John Doe</cite>
                 </li>
 

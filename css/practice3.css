@@ -133,6 +133,11 @@ ul.feature-list li::before {
   background: var(--primary-color);
   color: white;
 }
+.testimonial-section h1 {
+  display: block;
+  padding: 1em;
+  margin: 1em;
+}
 .testimonial-section li {
   text-align: center;
   background-color: #026dd8;
@@ -143,7 +148,7 @@ ul.feature-list li::before {
 }
 .testimonial-section li img {
   height: 100px;
-  width: 70px;
+  width: 100px;
   border: solid #026dd8;
   border-radius: 50%;
   margin-top: -4em;
