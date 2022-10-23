@@ -188,15 +188,13 @@ ul.feature-list {
 .testimonial-section {
 
     background: var(--primary-color);
-    color: white;
+    color: rgb(218, 50, 50); 
 
     h1 {
 
-        display: block;
-        padding: 1em;
-        margin: 1em;
+        text-align: center;
+        margin: 5em;
     }
-
     li{
 
         text-align: center;
@@ -208,7 +206,7 @@ ul.feature-list {
 
         img {
 
-            height: 100px;
+            height: 200px;
             width: 100px;
             border: solid #026dd8;
             border-radius: 50%;
@@ -520,6 +518,17 @@ nav {
         li {
 
             margin: 0 1em;
+
+        }
+    }
+    
+    .testimonial-section .container {
+
+        h1 {
+
+            text-align: center;
+            margin-left: -5em;
+            padding: 1em;
 
         }
     }

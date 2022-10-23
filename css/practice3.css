@@ -131,12 +131,11 @@ ul.feature-list li::before {
 
 .testimonial-section {
   background: var(--primary-color);
-  color: white;
+  color: rgb(218, 50, 50);
 }
 .testimonial-section h1 {
-  display: block;
-  padding: 1em;
-  margin: 1em;
+  text-align: center;
+  margin: 5em;
 }
 .testimonial-section li {
   text-align: center;
@@ -147,7 +146,7 @@ ul.feature-list li::before {
   border-radius: 1.5em;
 }
 .testimonial-section li img {
-  height: 100px;
+  height: 200px;
   width: 100px;
   border: solid #026dd8;
   border-radius: 50%;
@@ -357,6 +356,11 @@ nav .close-menu {
   }
   .testimonial-section ul li {
     margin: 0 1em;
+  }
+  .testimonial-section .container h1 {
+    text-align: center;
+    margin-left: -5em;
+    padding: 1em;
   }
   .contact-section {
     position: relative;
