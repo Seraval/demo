@@ -1,7 +1,7 @@
 <?php
 
 require_once ('class.php');
-$mhealth->assesment();
+$mhealth->anxiety();
 
 ?>
 
@@ -29,7 +29,7 @@ $mhealth->assesment();
       <nav>
           <img src="img/close.svg" class="close-menu" id = "mobile-exit" alt="">
           <ul class="primary-class">
-              <li><a href="index.php">Home</a></li>
+                <li><a href="assesment.php">Home</a></li>
               <li><a href="#">About</a></li>
               <!-- <li><a href="#">Pricing</a></li> -->
           </ul>
