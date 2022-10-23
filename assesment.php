@@ -33,7 +33,7 @@ $mhealth->assesment();
           </ul>
 
           <ul class="secondary-class">
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
               <!-- <li class="go-premium" ><a class="premium-cta" href="register.php">Sign up</a></li> -->
           </ul>
       </nav>

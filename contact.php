@@ -26,7 +26,7 @@
           </ul>
 
           <ul class="secondary-class">
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact">Contact</a></li>
               <!-- <li class="go-premium" ><a class="premium-cta" href="register.php">Sign up</a></li> -->
           </ul>
       </nav>
@@ -37,7 +37,7 @@
 <section class="testimonial-section">
     <div class="container">
 
-            <h1>OUR DOCTORS</h1><br><br>
+        <h1>OUR sdfasdg</h1>
             <ul>
                 <li>
                     <img src="img/man.png" alt="testimonial">

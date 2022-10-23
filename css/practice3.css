@@ -131,7 +131,7 @@ ul.feature-list li::before {
 
 .testimonial-section {
   background: var(--primary-color);
-  color: rgb(218, 50, 50);
+  color: white;
 }
 .testimonial-section h1 {
   text-align: center;
