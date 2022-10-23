@@ -40,38 +40,25 @@ $mhealth->assesment();
   </div>
 </div>
 
-<?php include_once "alert.php"; ?>
-    <section class="testimonial-section">
+<section class="testimonial-section">
         <div class="container">
             <ul>
                 <li>
-                    
-                    <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote><br>
-                    <button> <a href="dass21.php">Take DASS21</a> </button>
+                    <img src="img/treb.jpg" alt="testimonial">
+                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum."</blockquote>
+                    <cite>- John Doe</cite>
                 </li>
                 <li>
-                    
-                    <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote><br>
-                    <button> <a href="stress.php">Stress Test</a></button>
+                    <img src="img/treb.jpg" alt="testimonial">
+                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum."</blockquote>
+                    <cite>- John Doe</cite>
                 </li>
-            </ul>
-        </div>
 
-        <div class="container">
-            <ul>
-                <li>
-                    
-                    <blockquote>“It's so empowering to say “this isn't serving me' and walk away in peace.”"</blockquote><br>
-                    <button> <a href="anxiety.php">Anxiety Test</a></button>
-                </li>
-                <li>
-                    
-                    <blockquote>“Not everything that weighs you down is yours to carry.”</blockquote><br>
-                    <button><a href="depression.php">Depression Test</a></button>
-                </li>
             </ul>
         </div>
     </section>
+
+
 
 <script src="script.js"></script>
 </body>

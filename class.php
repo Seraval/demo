@@ -190,7 +190,7 @@ class mentalHealth {
 
     //ASSESMENT 
 
-    public function assesment(){
+    public function assesment(){   //DASS21
         
         if(isset($_POST['submit'])){
         
@@ -244,10 +244,124 @@ class mentalHealth {
         }    
     }
 
+    public function anxiety(){ //amxiety
+        
+        if(isset($_POST['submit'])){
+        
+                $test1 = $_POST['test1'];
+                $test2 = $_POST['test2'];
+                $test3 = $_POST['test3'];
+                $test4 = $_POST['test4'];
+                $test5 = $_POST['test5'];
+                $test6 = $_POST['test6'];
+                $test7 = $_POST['test7'];
+                $test8 = $_POST['test8'];
+                $test9 = $_POST['test9'];
+                $test10 = $_POST['test10'];
 
+
+                $and =  $test1 + $test2 + $test3 + $test4 + $test5 + $test6 + $test7 + $test8 + $test9 + $test10;
+
+                $normal = "NORMAL";
+                
+
+                if ($and < 10 ) {
+                    
+                    $connection = $this->openConnection();
+                    $stmt = $connection->prepare("UPDATE patientinfo SET status= ?  ");
+                    $stmt->execute([$normal]);
+
+                    header("location:anxiety.php?action=assesment");
+
+                } else {
+
+                    header("location:anxiety.php?action=assesment2");
+                    
+                }
+
+            }
+        }
+    
+
+        public function stress(){  //stress
+        
+            if(isset($_POST['submit'])){
+            
+                    $test1 = $_POST['test1'];
+                    $test2 = $_POST['test2'];
+                    $test3 = $_POST['test3'];
+                    $test4 = $_POST['test4'];
+                    $test5 = $_POST['test5'];
+                    $test6 = $_POST['test6'];
+                    $test7 = $_POST['test7'];
+                    $test8 = $_POST['test8'];
+                    $test9 = $_POST['test9'];
+                    $test10 = $_POST['test10'];
+    
+    
+                    $and =  $test1 + $test2 + $test3 + $test4 + $test5 + $test6 + $test7 + $test8 + $test9 + $test10;
+    
+                    $normal = "NORMAL";
+                    
+    
+                    if ($and < 10 ) {
+                        
+                        $connection = $this->openConnection();
+                        $stmt = $connection->prepare("UPDATE patientinfo SET status= ?  ");
+                        $stmt->execute([$normal]);
+    
+                        header("location:stress.php?action=assesment");
+    
+                    } else {
+    
+                        header("location:stress.php?action=assesment2");
+                        
+                    }
+    
+                }
+            }
+    
+    
+        public function depression(){    //depression
+    
+            if(isset($_POST['submit'])){
+            
+                    $test1 = $_POST['test1'];
+                    $test2 = $_POST['test2'];
+                    $test3 = $_POST['test3'];
+                    $test4 = $_POST['test4'];
+                    $test5 = $_POST['test5'];
+                    $test6 = $_POST['test6'];
+                    $test7 = $_POST['test7'];
+                    $test8 = $_POST['test8'];
+                    $test9 = $_POST['test9'];
+                    $test10 = $_POST['test10'];
+    
+    
+                    $and =  $test1 + $test2 + $test3 + $test4 + $test5 + $test6 + $test7 + $test8 + $test9 + $test10;
+    
+                    $normal = "NORMAL";
+                    
+    
+                    if ($and < 10 ) {
+                        
+                        $connection = $this->openConnection();
+                        $stmt = $connection->prepare("UPDATE patientinfo SET status= ?  ");
+                        $stmt->execute([$normal]);
+    
+                        header("location:stress.php?action=assesment");
+    
+                    } else {
+    
+                        header("location:stress.php?action=assesment2");
+                        
+                    }
+    
+                }
+            }
 
 }
+
 $mhealth = new mentalHealth;
 
 ?>
-
