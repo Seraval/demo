@@ -26,35 +26,44 @@
           </ul>
 
           <ul class="secondary-class">
-              <li><a href="contact">Contact</a></li>
+              <li><a href="contact.php">Contact</a></li>
               <!-- <li class="go-premium" ><a class="premium-cta" href="register.php">Sign up</a></li> -->
           </ul>
       </nav>
   </div>
 </div>
 
-
 <section class="testimonial-section">
-    <div class="container">
+        <div class="container">
 
-        <h1>OUR sdfasdg</h1>
+            <h1>OUR MENTAL HEALTH DOCTORS</h1>
             <ul>
                 <li>
-                    <img src="img/man.png" alt="testimonial">
-                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum." Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, assumenda quidem suscipit eaque odio aperiam, blanditiis iusto maxime repellendus quia porro quasi consequuntur fugiat repellat expedita quaerat ut quisquam nam!</blockquote>
-                    <cite>- John Doe</cite>
+                    <img src="img/doc.jpg" alt="testimonial">
+                    <h1>DR. NICK BABARAN ECHAVES “Okidoc”</h1>
+                    <h2>Specialty:</h2>
+                
+                        <p>Psychiatry</p>
+                        <p>Chairman of Helath and Sanitation</p><br><br><br>
+                        <a href="https://www.facebook.com/profile.php?id=100063670346030&mibextid=ZbWKwL">
+                        <img src="img/facebook.png" alt="Facebook icon" style="width: 32px; height: 32px; border: 0; float: left; margin-left: 60px;">
+                        </a>
                 </li>
                 <li>
-                    <img src="img/girl.png" alt="testimonial">
-                    <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate quis ipsum eveniet optio velit quasi necessitatibus id fugiat eum." Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis adipisci temporibus ab tenetur officia aliquam, error excepturi quia quibusdam culpa explicabo cupiditate atque vero eligendi praesentium corporis. Iste, earum aut?</blockquote>
-                    <cite>- John Doe</cite>
+                    <img src="img/doc1.png" alt="testimonial">
+                    <h1>Dr. DARYL ROSE PUGEDA MD</h1>
+                    <h2>Specialty:</h2>
+                
+                        <p>Psychiatry</p>
+                        <p>Sleep Medicine</p><br><br><br>
+                        <a href="mailto:DaPsychMD@gmail.com">
+                        <img src="img/email.png" alt="Facebook icon" style="width: 32px; height: 32px; border: 0; float: left; margin-left: 60px;">
+                        </a>
+                
                 </li>
-
             </ul>
         </div>
     </section>
-
-
 
 <script src="script.js"></script>
 </body>

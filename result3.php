@@ -1,9 +1,4 @@
-<?php
 
-require_once ('class.php');
-$mhealth->assesment();
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,45 +33,41 @@ $mhealth->assesment();
         </div>
     </div>
 
+
 <section class="vh-100">
   <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div class="container h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
 
-          <h2 class="text-uppercase text-center"><p> Mild / Normal Stress </p></h2><br>
-          <h3 class="text-uppercase text-center mb-3"><p> Recommendations </p></h3>
+          <h2 class="text-uppercase text-center"><p> You do not have a mental health issue.  </p></h2><br>
+          <h3 class="text-uppercase text-center mb-3"><p> maintain your efforts </p></h3>
 
             <div class="card mb-2" style="border-radius: 15px;">
                 <div class="card-body p-4 ">
 
                     <ul>
-                        <li>Regular Exercise – Aerobic exercises (outdoor cycling, jogging, walking). But do not exercise 2 to 3 	hours before the time you go to bed.)</li><br>
-                        <li> Mindfulness Meditation – such as sitting meditation, spiritual, focused, movement, mantra, transcendental, progressive, and visualization meditation (you can do any)</li><br>
-                        <li>Limit caffeine intake</li><br>
-                        <li>Get a regular sleep (sleep at 10 pm & wake up 6 am) defined as good rest.</li>
+                        <li>Tip: Exercise can reduce feelings of stress and depression and improve your mood. Getting enough sleep. Sleep affects your mood. If you don't get a good sleep, you may become more easily annoyed and angry</li><br>
                     </ul>
 
                 </div>
             </div>
 
             <a href="dass21.php">
-                <button type="button" class="btn btn-secondary ml-3 me-5 mb-5"> Repeat <br> Assesment </button>
+                <button type="button" class="btn btn-secondary me-2 mb-5"> Repeat Assesment </button>
             </a>
 
-            <a href="percentage1.php">
-                <button type="button" class="btn btn-success me-5 mb-5"> Show <br> Percentage </button>
+            <a href="percentage.php">
+                <button type="button" class="btn btn-success me-2 mb-5"> Show Percentage </button>
             </a>
 
-            <a href="contact.php">
-                <button type="button" class="btn btn-primary me-5 mb-5"> Consult to <br> our Doctor </button>
-            </a>
 
         </div>
       </div>
     </div>
   </div>
 </section>
+
   
 <script src="script.js"></script>
 </body>

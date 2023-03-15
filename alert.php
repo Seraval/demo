@@ -32,11 +32,24 @@
           <strong>ASSESMENT SUBMITTED SUCCESSFULY!</strong> <a href="result.php" class="alert-link">View Result</a>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>';
+        
         }  else if ($action == "assesment2") {
           echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
           <strong>ASSESMENT SUBMITTED SUCCESSFULY!</strong> <a href="result2.php" class="alert-link">View Result</a>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>';
+
+        }else if ($action == "assesment4") {
+          echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>ASSESMENT SUBMITTED SUCCESSFULY!</strong> <a href="result3.php" class="alert-link">View Result</a>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>';
+        }  else if ($action == "assesment5") {
+          echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>ASSESMENT SUBMITTED SUCCESSFULY!</strong> <a href="result4.php" class="alert-link">View Result</a>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>';
+
         }  else if ($action == "assesment3") {
           echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
           <strong> REGISTRATION SUCCESS!<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>

@@ -18,19 +18,19 @@
 <body>
     <div class="nav-bar">
         <div class="container">
-            <a href="#" class="logo">Thera<span>peace</span></a>
+            <a href="index.php" class="logo">Thera<span>peace</span></a>
 
             <img id="mobile-cta" src="img/menu.svg" class="mobile-menu" alt="menu">
             <nav>
                 <img src="img/close.svg" class="close-menu" id = "mobile-exit" alt="">
                 <ul class="primary-class">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="#">About</a></li>
                     <!-- <li><a href="#">Pricing</a></li> -->
                 </ul>
 
                 <ul class="secondary-class">
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <li class="go-premium" ><a class="premium-cta" href="register.php">Sign up</a></li>
                 </ul>
             </nav>
@@ -70,21 +70,19 @@
 
     <section class="testimonial-section">
         <div class="container">
+
             <ul>
                 <li>
-                    <br>
-                    <blockquote>"You don’t have to control your thoughts. You just have to stop letting them control you."</blockquote><br>
-                    <cite>- Dan Millman</cite>
+                    <blockquote> STRESS: <br> <br> a state of mental or emotional strain or tension resulting from adverse or very demanding circumstances.<blockquote><br>
+                    
                 </li>
                 <li>
-                    <br>
-                    <blockquote>"There is a crack in everything, that’s how the light gets in."</blockquote><br><br>
-                    <cite>- Leonard Cohen</cite>
+                    <blockquote>ANXIETY: <br><br> a feeling of fear, dread, and uneasiness. It might cause you to sweat, feel restless and tense, and have a rapid heartbeat. It can be a normal reaction to stress</blockquote><br><br>
+                    
                 </li>
                 <li>
-                    <br>
-                    <blockquote>"It is not the bruises on the body that hurt. It is the wounds of the heart and the scars on the mind."</blockquote><br>
-                    <cite>-  Aisha Mirza</cite>
+                    <blockquote>DEPRESSION: <br><br> is a common mental disorder. Globally, it is estimated that 5% of adults suffer from the disorder. It is characterized by persistent sadness and a lack of interest or pleasure in previously rewarding or enjoyable activities. </blockquote><br>
+                    
                 </li>
             </ul>
         </div>

@@ -74,7 +74,7 @@ $mhealth->login();
 
                 <p class="text-center text-muted mt-3 mb-3 ">Don't have an account? <a href="register.php" class="fw-bold text-dark"><u>Sign up here</u></a></p>
 
-                <p class="text-center text-muted mt-3 mb-3 "><a href="adminlogin.php" class="fw-bold text-dark"><u>Log in as admin</u></a></p>
+                <!-- <p class="text-center text-muted mt-3 mb-3 "><a href="adminlogin.php" class="fw-bold text-dark"><u>Log in as admin</u></a></p> -->
               
                 </form> 
 
